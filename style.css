@@ -1,0 +1,94 @@
+.body{
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background: #1F2937;
+    color: #ffff;
+    
+
+}    
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 190px;
+    
+
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color:#F9FAF8;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    
+}
+
+a,
+.sec-text{
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E5E7EB;    
+}
+
+a{
+    text-decoration: none;
+}
+
+.sec-text{
+    margin-bottom: 5px;
+    
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+    
+}
+
+.con-tex{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+
+}
+.con-image{
+    display: flex;
+    align-items: center;
+}
+.img1{
+    
+    width: 350px;
+    height: auto;
+   
+    
+    
+}
+
+button{
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 90px;
+    background-image: linear-gradient(rgba(0, 0, 250, 0.945),rgb(28, 121, 228));
+
+}
