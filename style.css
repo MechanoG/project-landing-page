@@ -1,5 +1,8 @@
 .body{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header{
@@ -114,7 +117,37 @@ a{
     width: 200px;
     height: auto;
     border-radius: 8px;
-    border: 2px solid #0672ff;
+    
+}
+
+.quote-section{
+    display: flex;
+    justify-content: center;    
+    background: #E5E7EB;
+    
+}
+
+.quote-cont{
+    display:flex;
+    flex-direction: column;
+    width: 830px;
+    color: #1F2937;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+}
+.author{
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
+
 }
 
 button{
